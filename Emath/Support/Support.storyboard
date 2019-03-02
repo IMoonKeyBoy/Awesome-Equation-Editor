@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Window Controller-->
+        <scene sceneID="9nk-Mp-8H6">
+            <objects>
+                <windowController storyboardIdentifier="SupportNSWindowController" id="s9J-sO-pjE" customClass="SupportNSWindowController" customModule="Emath" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="Abz-Sx-3DR">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+                        <connections>
+                            <outlet property="delegate" destination="s9J-sO-pjE" id="7J2-y1-34l"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="lOf-H4-Ul5" kind="relationship" relationship="window.shadowedContentViewController" id="J77-86-1xt"/>
+                    </connections>
+                </windowController>
+                <customObject id="9h1-T5-9FU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="251" y="130"/>
+        </scene>
+        <!--Support View Controller-->
+        <scene sceneID="Yfd-uh-yhd">
+            <objects>
+                <viewController id="lOf-H4-Ul5" customClass="SupportViewController" customModule="Emath" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="F6f-uf-eE3">
+                        <rect key="frame" x="0.0" y="0.0" width="458" height="464"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RUa-QO-t7c">
+                                <rect key="frame" x="158" y="0.0" width="157" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="paypal" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="T6g-61-Lwh">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="SupportFangbian:" target="lOf-H4-Ul5" id="uTb-F3-aaI"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMl-Ev-xsv">
+                                <rect key="frame" x="0.0" y="0.0" width="158" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="IMG_0721" id="7iL-n7-AJF"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKz-5e-oht">
+                                <rect key="frame" x="3" y="273" width="453" height="187"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" allowsUndo="NO" alignment="justified" id="zFd-uO-0Ct">
+                                    <font key="font" size="15" name="Apple-Chancery"/>
+                                    <string key="title">       Good software production is inseparable from the support of friends. If you think that the Emath software is not bad, you can consider rewarding a few dollars to support the author. The money for the donation will be used for the operation of the server and related websites.You can use WeChat or Alipay to scan the QR code on both sides. Or click on the middle PayPal for support.</string>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zXc-Md-VPp">
+                                <rect key="frame" x="313" y="0.0" width="147" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="IMG_0722" id="iOQ-KA-o6e"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SlW-9v-fSx">
+                                <rect key="frame" x="321" y="254" width="127" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" allowsUndo="NO" alignment="left" title="-----The Author " id="5Lg-m3-mhh">
+                                    <font key="font" size="15" name="Apple-Chancery"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhv-kd-G4Q">
+                                <rect key="frame" x="169" y="223" width="287" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" allowsUndo="NO" alignment="left" title="In China University of Geosciences Wuhan" id="BO6-v0-UyS">
+                                    <font key="font" size="15" name="Apple-Chancery"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Ym8-Xb-fQj">
+                                <rect key="frame" x="0.0" y="215" width="458" height="5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </box>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="bOq-0m-gMe" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="859" y="202"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0721" width="1242" height="1686"/>
+        <image name="IMG_0722" width="600" height="900"/>
+        <image name="paypal" width="930" height="1266"/>
+    </resources>
+</document>
