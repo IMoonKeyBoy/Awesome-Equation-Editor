@@ -80,9 +80,9 @@ class PDFViewController: NSViewController {
         task1.launch()
         
         let data = pipe1.fileHandleForReading.readDataToEndOfFile()
-        print(data)
+        //print(data)
         if let output = String(data: data, encoding: String.Encoding.utf8) {
-            print(output)
+           // print(output)
         }
         
         let myDirectory:String = NSHomeDirectory() + "/Downloads" + "/.EmathFiles"

@@ -61,31 +61,4 @@ class TopViewController: NSViewController {
         // Do view setup here.
     }
     
-    
-    func saveBookmarks(_ filePath : String){
-        
-        let userDefault = UserDefaults.standard
-        let folderPath = NSURL(fileURLWithPath: filePath)
-        print(folderPath.absoluteString!)
-        do {
-            let bookmark = try folderPath.bookmarkData(options: .securityScopeAllowOnlyReadAccess, includingResourceValuesForKeys: nil, relativeTo: nil)
-            userDefault.set(bookmark, forKey: folderPath.absoluteString!)
-        } catch let error as NSError {
-            print("Set Bookmark Fails: \(error.description)")
-        }
-    }
-    
-    func readBookmarks(_ filePath : String){
-        
-        let userDefault = UserDefaults.standard
-        if let bookmarkData = userDefault.object(forKey: filePath) as? NSData {
-            do {
-                let url = try NSURL.init(resolvingBookmarkData: bookmarkData as Data, options: .withoutUI, relativeTo: nil, bookmarkDataIsStale: nil)
-                url.startAccessingSecurityScopedResource()
-            } catch let error as NSError {
-                print("Bookmark Access Fails: \(error.description)")
-            }
-        }
-    }
-    
 }

@@ -227,8 +227,6 @@ class LatexViewController: NSViewController {
         writeFile(TexString:FinishLatex, fileBaseUrl: filePath)
     }
     func writeFile(TexString:String, fileBaseUrl:URL){
-        
-        print("Wir")
         let fileManager = FileManager.default
         let path = fileBaseUrl.path
         fileManager.createFile(atPath: path, contents:nil, attributes:nil)
