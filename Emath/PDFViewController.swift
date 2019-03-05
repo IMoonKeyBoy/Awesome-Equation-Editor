@@ -70,10 +70,8 @@ class PDFViewController: NSViewController {
         let task1 = Process()
         let executePath = NSHomeDirectory() + "/Downloads" + "/.EmathFiles"
         let Filename = NSHomeDirectory() + "/Downloads" + "/.EmathFiles/Latexmath.tex"
-        task1.launchPath = "/bin/bash"    // 执行路径(这里是需要执行命令的绝对路径)
-        // 设置执行的具体命令
+        task1.launchPath = "/bin/bash"
         //task1.arguments = ["-c","cd \(executePath); pdflatex \(Filename)"]
-        
 
         task1.arguments = ["-c","cd \(executePath);  /Library/TeX/texbin/pdflatex -synctex=1 -interaction=nonstopmode  \(Filename)"]
         task1.standardOutput = pipe1

@@ -1231,50 +1231,6 @@
                                 <rect key="frame" x="0.0" y="-2" width="620" height="5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </box>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R6U-m0-rB2">
-                                <rect key="frame" x="578" y="0.0" width="34" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="icons8-cancel" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="UZx-gK-JSI">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="Cancel:" target="9D3-UF-gZD" id="8lf-Dc-e60"/>
-                                </connections>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hjg-2o-jfA">
-                                <rect key="frame" x="545" y="0.0" width="34" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="icons8-feedback" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="04Q-HZ-TBK">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="FeedBack:" target="9D3-UF-gZD" id="52Y-6l-F6T"/>
-                                </connections>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zfK-RC-NYg">
-                                <rect key="frame" x="512" y="0.0" width="34" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="icons8-about" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="WBD-nb-Rci">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="About:" target="9D3-UF-gZD" id="Sdu-AL-8qy"/>
-                                </connections>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vfQ-05-SKN">
-                                <rect key="frame" x="479" y="0.0" width="34" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" alternateTitle="asd " bezelStyle="regularSquare" image="icons8-support" imagePosition="overlaps" alignment="left" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="FGr-Gt-8RY">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="Support:" target="9D3-UF-gZD" id="80I-f4-z5W"/>
-                                </connections>
-                            </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t72-vm-CAQ">
                                 <rect key="frame" x="255" y="8" width="111" height="21"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -1286,12 +1242,6 @@
                             </textField>
                         </subviews>
                     </view>
-                    <connections>
-                        <outlet property="AboutButton" destination="zfK-RC-NYg" id="x9y-Bx-wCh"/>
-                        <outlet property="Exitbutton" destination="R6U-m0-rB2" id="2dE-OW-uDY"/>
-                        <outlet property="FeedbackButton" destination="hjg-2o-jfA" id="0Xt-g3-uD5"/>
-                        <outlet property="SupportButton" destination="vfQ-05-SKN" id="1BA-k6-NjO"/>
-                    </connections>
                 </viewController>
                 <customObject id="1Fm-ga-Jhk" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1315,10 +1265,6 @@
         <image name="e_x" width="91" height="101"/>
         <image name="e_x_y" width="87" height="109"/>
         <image name="eta" width="97" height="125"/>
-        <image name="icons8-about" width="22.5" height="22.5"/>
-        <image name="icons8-cancel" width="22.5" height="22.5"/>
-        <image name="icons8-feedback" width="22.5" height="22.5"/>
-        <image name="icons8-support" width="22.5" height="22.5"/>
         <image name="infy" width="90" height="101"/>
         <image name="integral_x_y" width="173" height="158"/>
         <image name="lambda" width="99" height="123"/>

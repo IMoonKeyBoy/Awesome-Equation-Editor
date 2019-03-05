@@ -14,7 +14,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Create file
+        //Determine whether there is a Texlive environment
         let FileUrl = "/Library/TeX/texbin/pdflatex"
         let filePath = URL(string: FileUrl)!
         let manager = FileManager.default
@@ -44,6 +44,8 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
+    
+    //Get the Viewcontroller
     class func loadFromNib() -> ViewController {
         let  storyboard = NSStoryboard(name: "Main", bundle: nil)
         return storyboard.instantiateController(withIdentifier: "ViewController") as! ViewController

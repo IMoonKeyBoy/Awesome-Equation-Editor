@@ -26,9 +26,7 @@
 		57BB0FF8221B28E500379F57 /* Support.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BB0FF7221B28E500379F57 /* Support.storyboard */; };
 		57BB0FFA221B290600379F57 /* SupportNSWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB0FF9221B290600379F57 /* SupportNSWindowController.swift */; };
 		57BB0FFC221B2BEA00379F57 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB0FFB221B2BEA00379F57 /* SupportViewController.swift */; };
-		57E405AF222A2CDC00133601 /* OpenFiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E405AE222A2CDC00133601 /* OpenFiles.storyboard */; };
-		57E405B2222A2D1E00133601 /* OpenFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E405B0222A2D1E00133601 /* OpenFilesViewController.swift */; };
-		57E405B5222A2D4400133601 /* OpenFileWindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E405B4222A2D4400133601 /* OpenFileWindowsController.swift */; };
+		57CF07D8222EA69C00C663B8 /* GlobalEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CF07D7222EA69C00C663B8 /* GlobalEventMonitor.swift */; };
 		57E5280D221B9A010003093F /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 57E5280C221B9A010003093F /* icon.iconset */; };
 		57F583F822259CCA001C1D38 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F583F722259CCA001C1D38 /* TopViewController.swift */; };
 /* End PBXBuildFile section */
@@ -77,9 +75,7 @@
 		57BB0FF7221B28E500379F57 /* Support.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Support.storyboard; sourceTree = "<group>"; };
 		57BB0FF9221B290600379F57 /* SupportNSWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportNSWindowController.swift; sourceTree = "<group>"; };
 		57BB0FFB221B2BEA00379F57 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
-		57E405AE222A2CDC00133601 /* OpenFiles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OpenFiles.storyboard; sourceTree = "<group>"; };
-		57E405B0222A2D1E00133601 /* OpenFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFilesViewController.swift; sourceTree = "<group>"; };
-		57E405B4222A2D4400133601 /* OpenFileWindowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFileWindowsController.swift; sourceTree = "<group>"; };
+		57CF07D7222EA69C00C663B8 /* GlobalEventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEventMonitor.swift; sourceTree = "<group>"; };
 		57E5280C221B9A010003093F /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = icon.iconset; path = Image/icon.iconset; sourceTree = SOURCE_ROOT; };
 		57F583F722259CCA001C1D38 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				57E5280C221B9A010003093F /* icon.iconset */,
-				57E405AD222A2CA300133601 /* OpenFiles */,
 				57BB0FF6221B28CC00379F57 /* Support */,
 				57BB0FEF221B217C00379F57 /* Feedback */,
 				57BB0FEA221B106E00379F57 /* About */,
@@ -148,6 +143,7 @@
 				57BB0FD32217E97000379F57 /* PDFViewController.swift */,
 				5739318E221E84C20008804E /* Assets.xcassets */,
 				57F583F722259CCA001C1D38 /* TopViewController.swift */,
+				57CF07D7222EA69C00C663B8 /* GlobalEventMonitor.swift */,
 			);
 			path = Emath;
 			sourceTree = "<group>";
@@ -198,16 +194,6 @@
 				57BB0FFB221B2BEA00379F57 /* SupportViewController.swift */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		57E405AD222A2CA300133601 /* OpenFiles */ = {
-			isa = PBXGroup;
-			children = (
-				57E405AE222A2CDC00133601 /* OpenFiles.storyboard */,
-				57E405B0222A2D1E00133601 /* OpenFilesViewController.swift */,
-				57E405B4222A2D4400133601 /* OpenFileWindowsController.swift */,
-			);
-			path = OpenFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +308,6 @@
 				57BB0FF8221B28E500379F57 /* Support.storyboard in Resources */,
 				57E5280D221B9A010003093F /* icon.iconset in Resources */,
 				5779AF6B220D2709000F8FF6 /* Main.storyboard in Resources */,
-				57E405AF222A2CDC00133601 /* OpenFiles.storyboard in Resources */,
 				57BB0FEC221B107E00379F57 /* Storyboard.storyboard in Resources */,
 				5739318F221E84C20008804E /* Assets.xcassets in Resources */,
 				57BB0FF1221B219200379F57 /* Feedback.storyboard in Resources */,
@@ -350,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E405B2222A2D1E00133601 /* OpenFilesViewController.swift in Sources */,
 				57BB0FD42217E97000379F57 /* PDFViewController.swift in Sources */,
 				5714146722250ABA007F596C /* MyTextView.swift in Sources */,
 				57393191221ECA310008804E /* FeedbackViewController.swift in Sources */,
@@ -358,12 +342,12 @@
 				57BB0FEE221B10B600379F57 /* AboutNSWindowController.swift in Sources */,
 				5779AF66220D2709000F8FF6 /* ViewController.swift in Sources */,
 				57393193221ECA540008804E /* AboutViewController.swift in Sources */,
-				57E405B5222A2D4400133601 /* OpenFileWindowsController.swift in Sources */,
 				57BB0FF4221B21B200379F57 /* Feedbackwindowscontroller.swift in Sources */,
 				57BB0FFA221B290600379F57 /* SupportNSWindowController.swift in Sources */,
 				57BB0FD12217ADA300379F57 /* LatexViewController.swift in Sources */,
 				579C752C2217A2470014119E /* ButtonViewController.swift in Sources */,
 				57F583F822259CCA001C1D38 /* TopViewController.swift in Sources */,
+				57CF07D8222EA69C00C663B8 /* GlobalEventMonitor.swift in Sources */,
 				5779AF64220D2709000F8FF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
