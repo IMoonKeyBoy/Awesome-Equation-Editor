@@ -1,7 +1,7 @@
 ![Yeap china](https://github.com/MoonkeyBoy/MediaFiles/blob/master/china.svg)![Yeap awesome](https://github.com/MoonkeyBoy/MediaFiles/blob/master/awesome.svg)
 # Emath Editor: A Easy LaTeX Formula Editor!
 
-[English](README.md) | [ÖÐÎÄ](README-zh.md)
+[English](README.md) | [ä¸­æ–‡](README-zh.md)
 
 ## Introduction
 

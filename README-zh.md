@@ -1,18 +1,18 @@
- ![Yeap china](https://github.com/MoonkeyBoy/MediaFiles/blob/master/china.svg)![Yeap awesome](https://github.com/MoonkeyBoy/MediaFiles/blob/master/awesome.svg)
-# Emath Editor: Ò»¸ö¼òµ¥µÄLaTeX¹«Ê½±à¼­Æ÷
+![Yeap china](https://github.com/MoonkeyBoy/MediaFiles/blob/master/china.svg)![Yeap awesome](https://github.com/MoonkeyBoy/MediaFiles/blob/master/awesome.svg)
+# Emath Editor: ä¸€ä¸ªç®€å•çš„LaTeXå…¬å¼ç¼–è¾‘å™¨
 
-[English](README.md) | [ÖĞÎÄ](README-zh.md)
+[English](README.md) | [ä¸­æ–‡](README-zh.md)
 
-## ¼ò½é
+## ç®€ä»‹
 
-- Emath±à¼­Æ÷µÄµ®ÉúÊÇÎªÁË½â¾öÓÃ»§ÔÚ±à¼­LaTeX¹«Ê½Ê±´æÔÚµÄ¹«Ê½½Å±¾¸´ÔÓ¡¢½á¹¹»ìÂÒµÈÎÊÌâ¡£Ëü¿ÉÒÔ¼ò»¯¹«Ê½µÄ±à¼­¹ı³Ì£¬Ìá¸ßÓÃ»§±à¼­¹«Ê½µÄĞ§ÂÊ¡£Ëü»ùÓÚTEX½Å±¾¿â£¬Òò´ËĞèÒª°²×°ºÍÅäÖÃTEX»·¾³¡£ÕâÊÇÏÂÔØÁ´½Ó [ÏÂÔØ](http://tug.org/mactex/).
-- ÎªÁË·½±ãÊ¹ÓÃ£¬ÎÒÃÇ½«EmathÉèÖÃÎª¡°application is agent¡±£¨uielement£©£¬ÕâÑùÔÚÊ¹ÓÃ¹ı³ÌÖĞ¸ü·½±ã£¬²»ĞèÒªÀ´»ØÇĞ»»´°¿Ú£¬¿´ÆğÀ´ÊÇÕâÑùµÄ¡£
+- Emathç¼–è¾‘å™¨çš„è¯ç”Ÿæ˜¯ä¸ºäº†è§£å†³ç”¨æˆ·åœ¨ç¼–è¾‘LaTeXå…¬å¼æ—¶å­˜åœ¨çš„å…¬å¼è„šæœ¬å¤æ‚ã€ç»“æ„æ··ä¹±ç­‰é—®é¢˜ã€‚å®ƒå¯ä»¥ç®€åŒ–å…¬å¼çš„ç¼–è¾‘è¿‡ç¨‹ï¼Œæé«˜ç”¨æˆ·ç¼–è¾‘å…¬å¼çš„æ•ˆç‡ã€‚å®ƒåŸºäºTEXè„šæœ¬åº“ï¼Œå› æ­¤éœ€è¦å®‰è£…å’Œé…ç½®TEXç¯å¢ƒã€‚è¿™æ˜¯ä¸‹è½½é“¾æ¥ [ä¸‹è½½](http://tug.org/mactex/).
+- ä¸ºäº†æ–¹ä¾¿ä½¿ç”¨ï¼Œæˆ‘ä»¬å°†Emathè®¾ç½®ä¸ºâ€œapplication is agentâ€ï¼ˆuielementï¼‰ï¼Œè¿™æ ·åœ¨ä½¿ç”¨è¿‡ç¨‹ä¸­æ›´æ–¹ä¾¿ï¼Œä¸éœ€è¦æ¥å›åˆ‡æ¢çª—å£ï¼Œçœ‹èµ·æ¥æ˜¯è¿™æ ·çš„ã€‚
   ![Yeap Emathshow](https://github.com/MoonkeyBoy/MediaFiles/blob/master/EmathShow.png)
-- Èç¹ûÄúÏëÊ¹ÓÃËü£¬Ö»Ğèµ¥»÷¹«Ê½ÔªËØ°´Å¥£¬»òÓÃ¼üÅÌÌí¼ÓÒ»Ğ©¼òµ¥ÔªËØ£¬È»ºóµ¥»÷¡°Preview¡±°´Å¥£¬Ëü½«ÏÔÊ¾¹«Ê½Í¼Ïñ¡£Èç¹ûĞèÒª½«Tex½Å±¾¸´ÖÆµ½¼ôÌù°å£¬¿ÉÒÔµ¥»÷¡°Copy¡±°´Å¥¡£¡°Clear¡±°´Å¥ÓÃÓÚÇå¿Õ±à¼­ÇøÓò¡£
+- å¦‚æœæ‚¨æƒ³ä½¿ç”¨å®ƒï¼Œåªéœ€å•å‡»å…¬å¼å…ƒç´ æŒ‰é’®ï¼Œæˆ–ç”¨é”®ç›˜æ·»åŠ ä¸€äº›ç®€å•å…ƒç´ ï¼Œç„¶åå•å‡»â€œPreviewâ€æŒ‰é’®ï¼Œå®ƒå°†æ˜¾ç¤ºå…¬å¼å›¾åƒã€‚å¦‚æœéœ€è¦å°†Texè„šæœ¬å¤åˆ¶åˆ°å‰ªè´´æ¿ï¼Œå¯ä»¥å•å‡»â€œCopyâ€æŒ‰é’®ã€‚â€œClearâ€æŒ‰é’®ç”¨äºæ¸…ç©ºç¼–è¾‘åŒºåŸŸã€‚
   ![Yeap ShowVideo](https://github.com/MoonkeyBoy/MediaFiles/blob/master/ShowVideo.gif)
-## ÏÂÔØ
-- Äú¿ÉÒÔÏÂÔØÉÏÊö´úÂë£¬¶ÔÆä½øĞĞĞŞ¸Ä²¢×ÔĞĞ±àÒë¡£
-- Äú»¹¿ÉÒÔÏÂÔØÓ¦ÓÃ³ÌĞòÎÄ¼ş²¢Ö±½ÓÔËĞĞËüÃÇ¡£[ÏÂÔØ](https://github.com/MoonkeyBoy/Emath/blob/master/Emath.app.zip).
-- Äã¿ÉÒÔ´ÓÓ¦ÓÃÉÌµêÏÂÔØ£¬µ«ÓÉÓÚÉ³ºĞÎÄ¼şÈ¨ÏŞÎÊÌâ£¬Ëü²»ÄÜÔ¤ÀÀÍ¼Æ¬¡£
+## ä¸‹è½½
+- æ‚¨å¯ä»¥ä¸‹è½½ä¸Šè¿°ä»£ç ï¼Œå¯¹å…¶è¿›è¡Œä¿®æ”¹å¹¶è‡ªè¡Œç¼–è¯‘ã€‚
+- æ‚¨è¿˜å¯ä»¥ä¸‹è½½åº”ç”¨ç¨‹åºæ–‡ä»¶å¹¶ç›´æ¥è¿è¡Œå®ƒä»¬ã€‚[ä¸‹è½½](https://github.com/MoonkeyBoy/Emath/blob/master/Emath.app.zip).
+- ä½ å¯ä»¥ä»åº”ç”¨å•†åº—ä¸‹è½½ï¼Œä½†ç”±äºæ²™ç›’æ–‡ä»¶æƒé™é—®é¢˜ï¼Œå®ƒä¸èƒ½é¢„è§ˆå›¾ç‰‡ã€‚
 
  [![Get it on macOS](https://github.com/MoonkeyBoy/MediaFiles/blob/master/macos.svg)]()
